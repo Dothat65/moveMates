@@ -49,8 +49,7 @@ const ChallengesBike = () => {
                           navigation.navigate({
                             name: state.routes[index].name,
                             merge: true,
-                          });
-                        }}
+                          });                        }}
                       >
                         {activeIndex === index ? activeItems[index] : item}
                       </TouchableOpacity>
@@ -79,7 +78,7 @@ const styles = StyleSheet.create({
   topTabBarStyle: {
     borderRadius: 32,
     backgroundColor: "#f4f5f9",
-    width: 313,
+    width: '100%',
     height: 44,
     flexDirection: "row",
     alignItems: "flex-start",
@@ -158,19 +157,19 @@ const styles = StyleSheet.create({
   },
   travelSelection: {
     borderRadius: Border.br_xs,
-    width: 341,
     padding: Padding.p_sm,
     gap: Gap.gap_3xl,
     flex: 1,
+    width: "100%",
   },
   searchPageBody: {
     paddingHorizontal: Padding.p_mini,
     paddingVertical: Padding.p_base,
     alignItems: "center",
-    width: 375,
+    width: '100%',
   },
   challengesBike: {
-    width: "100%",
+    flex: 1,
   },
 });
 
