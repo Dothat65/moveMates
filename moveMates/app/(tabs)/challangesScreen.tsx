@@ -28,7 +28,7 @@ import {
 const TopTab = createMaterialTopTabNavigator();
 const ChallengesBike = () => {
   return (
-    <View style={[styles.challengesBike, styles.challengesBikeBg]}>
+    <SafeAreaView style={[styles.challengesBike, styles.challengesBikeBg]}>
       <StatusBar />
       <View style={[styles.searchPageBody, styles.challengesBikeBg]}>
         <View style={[styles.travelSelection, styles.bottomTabShadowBox]}>
@@ -65,7 +65,7 @@ const ChallengesBike = () => {
           </TopTab.Navigator>
         </View>
       </View>
-    </View>
+    </SafeAreaView>
   );
 };
 

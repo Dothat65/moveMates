@@ -28,16 +28,16 @@ export default function TabLayout() {
         options={{
           title: 'Challanges',
           tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'code-slash' : 'code-slash-outline'} color={color} />
+            <TabBarIcon name={focused ? 'list' : 'list-outline'} color={color} />
           ),
         }}
       />
       <Tabs.Screen
-        name="mapScreen"
+        name="incentivesScreen"
         options={{
-          title: 'Map',
+          title: 'Incentives',
           tabBarIcon: ({ color, focused }) => (
-            <TabBarIcon name={focused ? 'code-slash' : 'code-slash-outline'} color={color} />
+            <TabBarIcon name={focused ? 'cash-sharp' : 'cash-outline'} color={color} />
           ),
         }}
       />

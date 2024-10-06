@@ -20,7 +20,7 @@ import {
 
 const Explore = () => {
   return (
-    <View style={styles.explore}>
+    <SafeAreaView style={styles.explore}>
       <StatusBar />
       <ScrollView
         style={styles.exploreMainView}
@@ -270,7 +270,7 @@ const Explore = () => {
           </View>
         </View>
       </ScrollView>
-    </View>
+    </SafeAreaView>
   );
 };
 
